@@ -1,0 +1,195 @@
+.Cabecera {
+  min-height: 200px;
+  background-color: #ffd3b6;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  background-image: url('/assets/img/texturacolmena.pngs');
+}
+
+.titulotexto{
+  font-size: 80px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+  text-shadow: 
+  -1px -1px 0 black,  
+   1px -1px 0 black,
+  -1px  1px 0 black,
+   1px  1px 0 black;
+}
+
+.tituloflores{
+  margin-top: 0px;
+  color: white;
+  text-shadow: 
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+  }
+
+  .titulos {
+    width: 500px;
+    background-image: './src/img/texturacolmena.png';
+}
+
+.imagencabecera {
+  max-height: 300px;
+  border: black solid 5px;
+  border-radius: 10px;
+}
+
+.itemhabilidad {
+  width: 200px;
+  text-align: center; /* Para centrar el contenido dentro del div */
+  margin: 10px;
+  box-sizing: border-box;
+}
+.itemhabilidad img {
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block;
+  margin: 0 auto; /* Centra la imagen dentro del div */
+}
+
+.custom-navbar {
+  background-color: #ffd3b6; /* Cambia esto al color que prefieras */
+}
+
+
+.educacion {
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 8px; /* Añade bordes redondeados */
+  background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+
+/* Reset de estilos y fuentes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo general de la página */
+body {
+  background-color: #f0f0f0; /* Color de fondo en tono pastel */
+  color: #333; /* Color de texto principal */
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #ffd3b6; /* Color de fondo en tono pastel */
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+header p {
+  font-size: 1.5em;
+  color: #555;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Estilos para los ítems del portafolio */
+.portfolio-item {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.portfolio-item h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.portfolio-item p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #ffd3b6; /* Color de fondo en tono pastel */
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1em;
+  color: #555;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-info, .bio {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.bio {
+  flex: 1 1 50%; /* Ajusta el porcentaje según tus necesidades */
+}
+.contact-info {
+  flex: 1 1 40%; /* Ajusta el porcentaje según tus necesidades */
+}
+.contact-info h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.contact-info a {
+  text-decoration: none;
+  color: #3498db;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
